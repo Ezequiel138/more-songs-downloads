@@ -4,12 +4,12 @@
 #include <Geode/modify/LevelInfoLayer.hpp>
 #include <Geode/modify/LevelSettingsLayer.hpp>
 
-#include <cocos/network/HttpClient.h>
+#include <extensions/network/HttpClient.h>
 #include <fstream>
 #include <unordered_map>
 
 using namespace geode::prelude;
-using namespace cocos2d::network;
+using namespace cocos2d::extension;
 
 class SongURLDownloader : public CCNode {
 protected:
